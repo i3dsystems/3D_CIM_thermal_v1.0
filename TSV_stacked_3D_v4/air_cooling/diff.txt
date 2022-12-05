@@ -1,0 +1,328 @@
+11,12c11,12
+<     system.hsp.Xgrid = 250e-6;
+<     system.hsp.Ygrid = 250e-6;
+---
+>     system.hsp.Xgrid = 400e-6;
+>     system.hsp.Ygrid = 350e-6;
+46,48c46,50
+<     system.tran = 0;
+<     system.T = 10;
+<     system.dt = 1e-3;
+---
+>     system.tran = 1;
+>     system.T =10;
+>     system.dt = 0.025;
+> %     system.dt = 10e-3;
+>     system.Ntime = system.T/system.dt + 1;
+52c54
+<     Material.K = [3 %0.9 %Molding 1:
+---
+>     Material.K = [3 %Molding 1:
+54c56
+<                   1.6 %0.9 %underfill 3:
+---
+>                   0.9 %underfill 3:
+143c145
+<     chip(1).bump.material = 4;
+---
+>     chip(1).bump.material = 6;
+146c148,149
+<     chip(1).power = [100];  %power dissipation of each die
+---
+>     chip(1).power = [74.49];  %power dissipation of each die
+> %     chip(1).power = [100];
+153c156,168
+<     chip(1).map = [ ];
+---
+> %     chip(1).map = [ ];
+>     chip(1).map = [ 0.1e-3 0.2e-3 1.0e-3 4.6e-3 2.3000 0;
+>         0.1e-3 5.0e-3 1.0e-3 3.6e-3 2.2690 0;
+>         1.3e-3 0.2e-3 7.4e-3 2.6e-3 14.8044 0;
+>         1.3e-3 3.0e-3 1.4e-3 5.6e-3 7.5264 0;
+>         2.9e-3 3.0e-3 1.4e-3 5.6e-3 8.3720 0;
+>         4.5e-3 3.0e-3 1.0e-3 3.5e-3 1.9600 0;
+>         4.5e-3 6.7e-3 1.0e-3 1.9e-3 1.3680 0;
+>         5.7e-3 3.0e-3 1.4e-3 5.6e-3 6.9776 0;
+>         7.3e-3 3.0e-3 1.4e-3 5.6e-3 10.5840 0;
+>         8.9e-3 0.2e-3 1.0e-3 4.2e-3 2.4360 0;
+>         8.9e-3 4.6e-3 1.0e-3 4.0e-3 3.0800 0;
+>         0.1e-3 8.8e-3 9.8e-3 1.0e-3 6.4020 0];
+155,161c170,177
+< %     chip(1).blk_name = cell(12, 1);
+< %     chip(1).blk_name(:) = cellstr('');
+< %     chip(1).blk_name(3) = cellstr('Cache');
+< %     chip(1).blk_name(5) = cellstr('Core');
+< %     chip(1).blk_name(8) = cellstr('Core');
+<     chip(1).name = cellstr('CHIP # 1');    
+<     chip(1).blk_num = [0];
+---
+>     chip(1).blk_name = cell(12, 1);
+>     chip(1).blk_name(:) = cellstr('');
+>     chip(1).blk_name(3) = cellstr('Cache');
+>     chip(1).blk_name(5) = cellstr('Core');
+>     chip(1).blk_name(8) = cellstr('Core');
+>     chip(1).name = cellstr('Tier #1 (AP)');    
+>     chip(1).blk_num = [12];
+> %     chip(1).blk_num = [0];
+192c208
+<     chip(2).bump.material = 4;
+---
+>     chip(2).bump.material = 6;
+206,207c222,230
+<     % from top to bottom; unit: watt
+<     
+---
+> %     % from top to bottom; unit: watt
+> 
+> 
+> %     chip(2).power = [5.65/4 5.65/4 5.65/4 5.65/4 ...
+> %                      5];  %power dissipation of each die
+> %                  
+> %     chip(2).p_metal = [0.05 0.05 0.05 0.05 ...
+> %                        0.05];
+> 
+212,218c235,268
+<     %blk_num is for splitting the power maps of each die
+< %     chip(1).blk_name = cell(12, 1);
+< %     chip(1).blk_name(:) = cellstr('');
+< %     chip(1).blk_name(3) = cellstr('Cache');
+< %     chip(1).blk_name(5) = cellstr('Core');
+< %     chip(1).blk_name(8) = cellstr('Core');
+<     chip(2).name = cellstr('CHIP # 2');    
+---
+> %     chip(2).map = [ 4.3e-3 0.2e-3 1.4e-3 9.7e-3 0.8735/2 0;
+> %                     0.1e-3 0.1e-3 4.1e-3 4.9e-3 0.6560/2 0;
+> %                     0.1e-3 5.1e-3 4.1e-3 4.9e-3 1.3120/2 0;                                        
+> %                     5.8e-3 0.1e-3 4.1e-3 4.9e-3 0.9840/2 0; 
+> %                     5.8e-3 5.1e-3 4.1e-3 4.9e-3 1.4760/2 0;
+> %                     
+> %                     4.3e-3 0.2e-3 1.4e-3 9.7e-3 0.8735/2 0;
+> %                     0.1e-3 0.1e-3 4.1e-3 4.9e-3  0.7544/2 0;
+> %                     0.1e-3 5.1e-3 4.1e-3 4.9e-3 1.0168/2 0;
+> %                     5.8e-3 0.1e-3 4.1e-3 4.9e-3 0.9840/2 0;
+> %                     5.8e-3 5.1e-3 4.1e-3 4.9e-3 1.6400/2 0;
+> %                     
+> %                     4.3e-3 0.2e-3 1.4e-3 9.7e-3 0.8735/2 0;
+> %                     0.1e-3 0.1e-3 4.1e-3 4.9e-3 0.6560/2 0;
+> %                     0.1e-3 5.1e-3 4.1e-3 4.9e-3 1.3120/2 0;                                        
+> %                     5.8e-3 0.1e-3 4.1e-3 4.9e-3 0.9840/2 0; 
+> %                     5.8e-3 5.1e-3 4.1e-3 4.9e-3 1.4760/2 0;
+> %                     
+> %                     4.3e-3 0.2e-3 1.4e-3 9.7e-3 0.8735/2 0;
+> %                     0.1e-3 0.1e-3 4.1e-3 4.9e-3  0.7544/2 0;
+> %                     0.1e-3 5.1e-3 4.1e-3 4.9e-3 1.0168/2 0;
+> %                     5.8e-3 0.1e-3 4.1e-3 4.9e-3 0.9840/2 0;
+> %                     5.8e-3 5.1e-3 4.1e-3 4.9e-3 1.6400/2 0;
+> %                     ];
+> % 
+> %     chip(2).map(:,5) = chip(2).map(:,5)/2;
+> %     chip(2).blk_name = cell(20,1);
+> %     chip(2).blk_name(:) = cellstr('');
+> %     chip(2).blk_name(1) = cellstr('IO');
+> %     chip(2).blk_name(6) = cellstr('IO');
+> %     chip(2).name = cellstr('Tier 2(RRAM)');                
+> %     chip(2).blk_num = [5 5 5 5 0];
+>     
+>     chip(2).name = cellstr('CHIP # 2(RRAM)');    
+250,251c300,301
+<     chip(3).bump.px = 250e-6;
+<     chip(3).bump.py = 250e-6;
+---
+>     chip(3).bump.px = 200e-6;
+>     chip(3).bump.py = 200e-6;
+254c304
+<     chip(3).bump.material = 4;
+---
+>     chip(3).bump.material = 6;
+266,267c316,317
+<     chip(3).TSV.px = 250e-6;
+<     chip(3).TSV.py = 250e-6;  
+---
+>     chip(3).TSV.px = 200e-6;
+>     chip(3).TSV.py = 200e-6;  
+320c370
+<     chip(4).bump.material = 4;
+---
+>     chip(4).bump.material = 6;
+330,331c380,381
+<     chip(4).TSV.px = 200e-6;
+<     chip(4).TSV.py = 200e-6;  
+---
+>     chip(4).TSV.px = 250e-6;
+>     chip(4).TSV.py = 250e-6;  
+384c434
+<     chip(5).bump.material = 4;
+---
+>     chip(5).bump.material = 6;
+394,395c444,445
+<     chip(5).TSV.px = 200e-6;
+<     chip(5).TSV.py = 200e-6;  
+---
+>     chip(5).TSV.px = 250e-6;
+>     chip(5).TSV.py = 250e-6;  
+448c498
+<     chip(6).bump.material = 4;
+---
+>     chip(6).bump.material = 6;
+458,459c508,509
+<     chip(6).TSV.px = 200e-6;
+<     chip(6).TSV.py = 200e-6;  
+---
+>     chip(6).TSV.px = 250e-6;
+>     chip(6).TSV.py = 250e-6;  
+512c562
+<     chip(7).bump.material = 4;
+---
+>     chip(7).bump.material = 6;
+522,523c572,573
+<     chip(7).TSV.px = 200e-6;
+<     chip(7).TSV.py = 200e-6;  
+---
+>     chip(7).TSV.px = 250e-6;
+>     chip(7).TSV.py = 250e-6;  
+576c626
+<     chip(8).bump.material = 4;
+---
+>     chip(8).bump.material = 6;
+586,587c636,637
+<     chip(8).TSV.px = 200e-6;
+<     chip(8).TSV.py = 200e-6;  
+---
+>     chip(8).TSV.px = 250e-6;
+>     chip(8).TSV.py = 250e-6;  
+711,723c761,773
+<     chip(3).bump.map = [(chip(3).xl-1e-3) (chip(3).yb-1e-3) chip(3).Xsize chip(3).Ysize;
+<                        (chip(4).xl-1e-3) (chip(4).yb-1e-3) chip(4).Xsize chip(4).Ysize;
+<                        (chip(5).xl-1e-3) (chip(5).yb-1e-3) chip(5).Xsize chip(5).Ysize;
+<                        (chip(6).xl-1e-3) (chip(6).yb-1e-3) chip(6).Xsize chip(6).Ysize;
+<                        (chip(7).xl-1e-3) (chip(7).yb-1e-3) chip(7).Xsize chip(7).Ysize;
+<                        (chip(8).xl-1e-3) (chip(8).yb-1e-3) chip(8).Xsize chip(8).Ysize];
+<     
+<     chip(3).TSV.map = [(chip(3).xl-1e-3) (chip(3).yb-1e-3) chip(3).Xsize chip(3).Ysize;
+<                        (chip(4).xl-1e-3) (chip(4).yb-1e-3) chip(4).Xsize chip(4).Ysize;
+<                        (chip(5).xl-1e-3) (chip(5).yb-1e-3) chip(5).Xsize chip(5).Ysize;
+<                        (chip(6).xl-1e-3) (chip(6).yb-1e-3) chip(6).Xsize chip(6).Ysize;
+<                        (chip(7).xl-1e-3) (chip(7).yb-1e-3) chip(7).Xsize chip(7).Ysize;
+<                        (chip(8).xl-1e-3) (chip(8).yb-1e-3) chip(8).Xsize chip(8).Ysize];
+---
+>     chip(3).bump.map = [chip(3).xl chip(3).yb chip(3).Xsize chip(3).Ysize;
+>                        chip(4).xl chip(4).yb chip(4).Xsize chip(4).Ysize;
+>                        chip(5).xl chip(5).yb chip(5).Xsize chip(5).Ysize;
+>                        chip(6).xl chip(6).yb chip(6).Xsize chip(6).Ysize;
+>                        chip(7).xl chip(7).yb chip(7).Xsize chip(7).Ysize;
+>                        chip(8).xl chip(8).yb chip(8).Xsize chip(8).Ysize];
+>     
+>     chip(3).TSV.map = [chip(3).xl chip(3).yb chip(3).Xsize chip(3).Ysize;
+>                        chip(4).xl chip(4).yb chip(4).Xsize chip(4).Ysize;
+>                        chip(5).xl chip(5).yb chip(5).Xsize chip(5).Ysize;
+>                        chip(6).xl chip(6).yb chip(6).Xsize chip(6).Ysize;
+>                        chip(7).xl chip(7).yb chip(7).Xsize chip(7).Ysize;
+>                        chip(8).xl chip(8).yb chip(8).Xsize chip(8).Ysize];
+759,766c809,816
+< % chip(1).power = [100];
+< % chip(2).power = [5];
+< % chip(3).power = [0.375];
+< % chip(4).power = [0.375];
+< % chip(5).power = [0.375];
+< % chip(6).power = [0.375];
+< % chip(7).power = [0.375];
+< % chip(8).power = [0.375];
+---
+> chip(1).power = [100];
+> chip(2).power = [5];
+> chip(3).power = [1];
+> chip(4).power = [3.755];
+> chip(5).power = [2];
+> chip(6).power = [3.75];
+> chip(7).power = [3.75];
+> chip(8).power = [2.75];
+768c818
+< % Medium power:
+---
+> % %% High power:
+771,773c821,823
+< % chip(3).power = [1];
+< % chip(4).power = [3.755];
+< % chip(5).power = [2];
+---
+> % chip(3).power = [3.75];
+> % chip(4).power = [3.75];
+> % chip(5).power = [3.75];
+775,786c825,826
+< % chip(7).power = [3.75];
+< % chip(8).power = [2.75];
+< 
+< % High power:
+< chip(1).power = [100];
+< chip(2).power = [5];
+< chip(3).power = [3.75];
+< chip(4).power = [3.75];
+< chip(5).power = [3.75];
+< chip(6).power = [3.75];
+< chip(7).power = [37.5];
+< chip(8).power = [3.75];
+---
+> % chip(7).power = [37.5];
+> % chip(8).power = [3.75];
+789,790c829
+< 
+< diary(['air_tj_pd_results_',datestr(now,'dd-mm-yy','local'),'_',datestr(now,'hh-MM-ss','local'),'.txt'])
+---
+> diary('diary_file.txt');
+792,795c831,833
+< format shortEng;
+< 
+< % T = ThermSim(system, chip, Material, draw, h);
+< 
+---
+> T = ThermSim(system, chip, Material, draw, h);
+> diary off;
+>     
+802,804c840,843
+< %         fprintf('Power: %.1f W\n', p_d7);
+< %         fprintf('Emb. layer thickness: %.1f m\n', dist_ET);
+< %         chip(4).layer.mold_b(1) = dist_ET; %chip 4 ILD thickness
+---
+> %         %         disp('die 7 power = ',p_d7);
+> %         disp(p_d7);
+> %         disp(dist_ET);
+> %         chip(4).layer.mold_b(1) = dist_ET; %chip 7 power
+806c845,846
+< %         
+---
+> %         %         disp('Min Max Temperatures: ',T);
+> %         %         disp(T);
+815,816c855,857
+< %         fprintf('Power: %.1f W\n', p_d7);
+< %         fprintf('Emb. layer ILD: %.1f m\n', emb_layer_ild_t);
+---
+> %         %         disp('die thickness = ',t)
+> %         disp(p_d7);
+> %         disp(emb_layer_ild_t);
+818d858
+< %         
+820d859
+< %         
+829a869
+> %     disp(p_d4);
+832a873
+> %         disp(d_t3);
+834,835d874
+< %         fprintf('Power die 4: %f W\n', p_d4);
+< %         fprintf('Embedded die bulk thickness: %f m\n', d_t3);
+846a886
+>     
+848,855d887
+< %% Tj variation with embedded die power
+< 
+< % main program to run
+< for p_d7 = [0.375,0.75,1.5,2.25,3.75,5.625,7.5,15,22.5,30,37.5]
+<     chip(7).power = p_d7;
+<     fprintf('Power: %f W\n', p_d7);
+<     T = ThermSim(system, chip, Material, draw, h);
+< end
+857c889
+< diary off;
+---
+>                
+\ No newline at end of file

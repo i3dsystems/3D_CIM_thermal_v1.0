@@ -1,0 +1,11 @@
+﻿Material,Conductivity (W/mK),Specific heat capacity (J/K),Density (kg/m2)
+Molding,3,1000,2900
+silicon,149,705,2329
+underfill,1.6,1000,2100
+copper,400,385,8690
+sio2,1.38,705,2648
+microbump,60,227,12000
+interposer,149,705,2329
+air,0.024,1003.5,1.23E-03
+ceramic package property (FR4),0.1,600,1850
+TIM,3,1000,2900

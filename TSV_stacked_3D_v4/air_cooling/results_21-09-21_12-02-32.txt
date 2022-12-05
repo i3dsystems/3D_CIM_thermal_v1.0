@@ -1,0 +1,67 @@
+
+
+Die size:    9.690e-03 m
+Die area:    9.390e-05 m2
+Power for Logic:    1.997e+02 W
+Power for Memory:    5.050e+00 W
+Total stack power:    2.048e+02 W
+Die bulk thickness:    1.500e-05 m
+TSV diameter:    1.000e-06 m
+TSV pitch (x and y):    2.000e-06 m
+ubump diameter:    2.500e-05 m
+ubump pitch (x and y):    5.000e-05 m
+Building stack layers
+there are 10 physical layers
+there are 11 nodal layers to be solved
+
+meshing the stack
+The locations of the chip are fine 
+The locations between the chip and package are fine 
+The locations between the chip and heat spreader are fine 
+chip domain meshing done
+package domain meshing done
+heat spreader domain meshing done
+Elapsed time is 0.001233 seconds.
+meshing done
+
+Vias insertion 
+layer 1 bump informtion: there are 37249 vias
+layer 2 bump informtion: there are 37249 vias
+layer 2 TSV informtion: there are 38800 vias
+
+build Stiffness Matrix
+heat spreader top done: 0.139294
+other heat spreader layers done: 0.026911
+heat spreader bot done: 0.558196
+other chip layers done: 0.682696
+package top layer done: 0.567163
+other package layers done: 0.000005
+package bot done: 0.029021
+11 of 11 layers are analyzed
+Elapsed time is 2.004661 seconds.
+
+assign power map
+Elapsed time is 11.981537 seconds.
+total power: 204.793495
+finish assigning power map
+
+calculate temperature
+Elapsed time is 19.815320 seconds.
+calculatation done
+ 
+chip1 Max: 93.810122
+chip1 Min: 64.804129
+chip1 Metal Max: 93.918770
+chip1 Metal Min: 64.986910
+chip2 Max: 93.813277
+chip2 Min: 65.856382
+chip2 Metal Max: 93.672217
+chip2 Metal Min: 66.127434
+Package Max: 93.479031
+Package Min: 66.515010
+total power escaped from top surface: 204.004752
+Heat spreader Max: 59.023940
+Heat spreader Min: 35.348524
+chip1 Min ~ Max: 64.80 ~ 93.81
+chip2 Min ~ Max: 65.86 ~ 93.81
+total run time: 50.08 

@@ -1,0 +1,190 @@
+hole::before {
+	content: " " attr(id) " ";
+	font-family: "Courier New",Courier,monospace;
+	font-size: 10pt;
+	font-weight: bold;
+}
+
+hole {
+  display:block;
+  font-size: x-small;
+  color: #3333ff;
+  font-family: "Courier New",Courier,monospace;
+  font-weight: bold;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 2px;
+  padding-left: 8px;
+  border-radius: 5px;
+  background: #FFF482;
+  box-shadow: 0 0 0 2px #FFF482;
+}
+
+p hole {
+  display:inline;
+  font-size: x-small;
+  color: #3333ff;
+  font-family: "Courier New",Courier,monospace;
+  font-weight: bold;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-right: 2px;
+  padding-left: 8px;
+  border-radius: 5px;
+  background: #FFF482;
+  box-shadow: 0 0 0 2px #FFF482;
+}
+
+span hole {
+  display:inline;
+  font-size: x-small;
+  color: #3333ff;
+  font-family: "Courier New",Courier,monospace;
+  font-weight: bold;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-right: 2px;
+  padding-left: 8px;
+  border-radius: 5px;
+  background: #FFF482;
+  box-shadow: 0 0 0 2px #FFF482;
+}
+
+h1 hole {
+  display:inline;
+  font-size: x-small;
+  color: #3333ff;
+  font-family: "Courier New",Courier,monospace;
+  font-weight: bold;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-right: 2px;
+  padding-left: 8px;
+  border-radius: 5px;
+  background: #FFF482;
+  box-shadow: 0 0 0 2px #FFF482;
+}
+
+h2 hole {
+  display:inline;
+  font-size: x-small;
+  color: #3333ff;
+  font-family: "Courier New",Courier,monospace;
+  font-weight: bold;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-right: 2px;
+  padding-left: 8px;
+  border-radius: 5px;
+  background: #FFF482;
+  box-shadow: 0 0 0 2px #FFF482;
+}
+
+h3 hole {
+  display:inline;
+  font-size: x-small;
+  color: #3333ff;
+  font-family: "Courier New",Courier,monospace;
+  font-weight: bold;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-right: 2px;
+  padding-left: 8px;
+  border-radius: 5px;
+  background: #FFF482;
+  box-shadow: 0 0 0 2px #FFF482;
+}
+
+h4 hole {
+  display:inline;
+  font-size: x-small;
+  color: #3333ff;
+  font-family: "Courier New",Courier,monospace;
+  font-weight: bold;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-right: 2px;
+  padding-left: 8px;
+  border-radius: 5px;
+  background: #FFF482;
+  box-shadow: 0 0 0 2px #FFF482;
+}
+
+h5 hole {
+  display:inline;
+  font-size: x-small;
+  color: #3333ff;
+  font-family: "Courier New",Courier,monospace;
+  font-weight: bold;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-right: 2px;
+  padding-left: 8px;
+  border-radius: 5px;
+  background: #FFF482;
+  box-shadow: 0 0 0 2px #FFF482;
+}
+
+h6 hole {
+  display:inline;
+  font-size: x-small;
+  color: #3333ff;
+  font-family: "Courier New",Courier,monospace;
+  font-weight: bold;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-right: 2px;
+  padding-left: 8px;
+  border-radius: 5px;
+  background: #FFF482;
+  box-shadow: 0 0 0 2px #FFF482;
+}
+
+/* These properties are for the old markup syntax */
+form.Hole {
+  font-size: x-small;
+  color: #3333ff;
+  font-family: "Courier New",Courier,monospace;
+  font-weight: bold;
+  padding-right: 2px;
+  padding-left: 4 px;
+}
+
+div.Hole {
+  font-size: x-small;
+  color: #3333ff;
+  font-family: "Courier New",Courier,monospace;
+  font-weight: bold;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 2px;
+  padding-left: 8px;
+  border-radius: 5px;
+  background: #FFF482;
+  box-shadow: 0 0 0 2px #FFF482;
+}
+
+span.Hole {
+  font-size: x-small;
+  color: #3333ff;
+  font-family: "Courier New",Courier,monospace;
+  font-weight: bold;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-right: 2px;
+  padding-left: 8px;
+  border-radius: 5px;
+  background: #FFF482;
+  box-shadow: 0 0 0 2px #FFF482;
+}
+
+span.HoleId {
+  font-size: small;
+}
+
+span.HoleDesc {
+  margin-left: 5px;
+  padding-left: 5px;
+  border-style: dotted;
+  border-width: 1px;
+}

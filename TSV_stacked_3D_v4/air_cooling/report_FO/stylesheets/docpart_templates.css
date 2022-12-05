@@ -1,0 +1,31 @@
+dptemplate::before{
+  content: "" attr(name) "";
+  font-family: "Courier New",Courier,monospace;
+  font-weight: bold;
+  color: #3333ff;
+}
+
+dptemplate {
+  margin-bottom: 4pt;
+  margin-top: 4pt;
+  border-style:dotted;
+  border-width:thin;
+  display:block;
+  background: #E6E6E6;
+}
+
+/* These properties are for the old markup syntax */
+div.TemplateBody {
+  border-style:dotted;
+  border-width:thin;
+}
+
+span.TemplateName {
+  font-family: "Courier New",Courier,monospace;
+  font-weight: bold;
+  color: #3333ff;
+}
+
+div.TemplateName {
+  margin-top:25px;
+}

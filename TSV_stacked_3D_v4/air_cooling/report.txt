@@ -1,0 +1,4 @@
+layer,model,metal_portion,Xsize,Ysize,bump,power,p_metal,map,name,blk_num,TSV,xl,yb
+,3,0.15,0.01,0.01,,100,0.05,,CHIP # 1,0,,0.001,0.001
+,3,0.15,0.01,0.01,,5,0.05,,CHIP # 2,0,,0.001,0.001
+,4,0.15,0.0025,0.003,,1,0.05,,CHIP # 3,0,,0.0015,0.002

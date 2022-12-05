@@ -1,0 +1,42 @@
+﻿General Parameters,
+Parameter,Value
+Substrate thickness,3.00E-05
+TSV diameter,1.00E-06
+,
+Power,
+chip size,9.69E-03
+x_TSV,2.49E-03
+Logic power,199.72
+Memory power,5.05
+,
+Layout and power,
+ADC variables,
+x_margin_adc,1.00E-04
+y_margin_adc,1.00E-04
+nADC ,660
+nyADC ,44
+nxADC ,15
+block_dimension_adc ,2.08154E-04
+y_pitch_adc ,2.98100E-06
+x_pitch_adc ,3.81300E-06
+per_ADC_power ,0.15020
+x_dim_adc ,0.00675
+pool_gb_xsize_adc ,0.00025
+y_dim_pool ,0.00915
+y_dim_gb ,0.00034
+tsv_xsize_adc ,0.00249
+pool_power ,0.35158
+gb_power ,0.04471
+,
+MEM variables,
+x_margin_MEM ,1.00E-04
+y_margin_MEM ,1.00E-04
+nMEM ,11520
+nyMEM ,160
+nxMEM ,72
+block_dimension_mem ,2.85E-05
+y_pitch_mem ,2.97E-05
+x_pitch_mem ,1.75E-05
+per_MEM_power ,0.000220
+tsv_xsize_mem ,0.002490
+x_dim_mem ,0.006999

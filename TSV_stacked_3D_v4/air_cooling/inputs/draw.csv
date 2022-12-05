@@ -1,0 +1,13 @@
+Drawing parameters,,Value,
+draw,granularity,100,
+,write,1,
+,T,1,
+,P,1,
+,pdrange,0,330
+,pdclamp,1,
+,C,0,
+,displayT,1,
+,absolutely,1,
+,gif,0,
+,range,27.8,99.5
+,clamp,1,

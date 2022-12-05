@@ -1,0 +1,6 @@
+Convective boundary conditions (W/m2-K),,Value
+h,up,4444.44
+,down,10
+,side,10
+,d,10
+,Ta,300

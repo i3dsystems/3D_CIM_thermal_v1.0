@@ -1,0 +1,308 @@
+diary off
+report
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   1
+
+report
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   1
+
+report
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   1
+
+report
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   1
+
+testbench
+if system_dependent('IsDebugMode')==1, dbquit; end
+testbench
+if system_dependent('IsDebugMode')==1, dbstep; end
+{Undefined function or variable 'result'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('testbench', 'C:\Users\Ankit Kaul\Dropbox (GaTech)\PhD\projects\thermal_modeling\fan-out\test_code_fowlp\test\test_2\FOWLP\testbench.m', 342)" style="font-weight:bold">testbench</a> (<a href="matlab: opentoline('C:\Users\Ankit Kaul\Dropbox (GaTech)\PhD\projects\thermal_modeling\fan-out\test_code_fowlp\test\test_2\FOWLP\testbench.m',342,0)">line 342</a>)
+result (chip, system);
+} 
+testbench
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbquit; end
+testbench
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+[Fatal Error] root.fo:1:2037: An invalid XML character (Unicode: 0x2) was found in the element content of the document.
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('rptgen.utils.FOPProxy/foToPDFImpl', 'C:\Program Files\MATLAB\R2018b\toolbox\shared\rptgen\+rptgen\+utils\FOPProxy.m', 200)" style="font-weight:bold">rptgen.utils.FOPProxy/foToPDFImpl</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2018b\toolbox\shared\rptgen\+rptgen\+utils\FOPProxy.m',200,0)">line 200</a>)
+Java exception occurred:
+javax.xml.transform.TransformerException: org.xml.sax.SAXParseException; systemId:
+file:/C:/Users/Ankit%20Kaul/Dropbox%20(GaTech)/PhD/projects/thermal_modeling/fan-out/test_code_fowlp/test/test_2/FOWLP/report_FO/root.fo;
+lineNumber: 1; columnNumber: 2037; An invalid XML character (Unicode: 0x2) was found in the element content of the
+document.
+	at com.icl.saxon.IdentityTransformer.transform(IdentityTransformer.java:61)
+Caused by: org.xml.sax.SAXParseException; systemId:
+file:/C:/Users/Ankit%20Kaul/Dropbox%20(GaTech)/PhD/projects/thermal_modeling/fan-out/test_code_fowlp/test/test_2/FOWLP/report_FO/root.fo;
+lineNumber: 1; columnNumber: 2037; An invalid XML character (Unicode: 0x2) was found in the element content of the
+document.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at com.icl.saxon.IdentityTransformer.transform(IdentityTransformer.java:59)
+---------
+org.xml.sax.SAXParseException; systemId:
+file:/C:/Users/Ankit%20Kaul/Dropbox%20(GaTech)/PhD/projects/thermal_modeling/fan-out/test_code_fowlp/test/test_2/FOWLP/report_FO/root.fo;
+lineNumber: 1; columnNumber: 2037; An invalid XML character (Unicode: 0x2) was found in the element content of the
+document.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at com.icl.saxon.IdentityTransformer.transform(IdentityTransformer.java:59)
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('rptgen.utils.FOPProxy.foToPDF', 'C:\Program Files\MATLAB\R2018b\toolbox\shared\rptgen\+rptgen\+utils\FOPProxy.m', 84)" style="font-weight:bold">rptgen.utils.FOPProxy.foToPDF</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2018b\toolbox\shared\rptgen\+rptgen\+utils\FOPProxy.m',84,0)">line 84</a>)
+            foToPDFImpl(h, foPath, pdfPath, locale, extraFonts, cleanupFonts);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('report', 'C:\Users\Ankit Kaul\Dropbox (GaTech)\PhD\projects\thermal_modeling\fan-out\test_code_fowlp\test\test_2\FOWLP\report.m', 21)" style="font-weight:bold">report</a> (<a href="matlab: opentoline('C:\Users\Ankit Kaul\Dropbox (GaTech)\PhD\projects\thermal_modeling\fan-out\test_code_fowlp\test\test_2\FOWLP\report.m',21,0)">line 21</a>)
+close(d)
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('testbench', 'C:\Users\Ankit Kaul\Dropbox (GaTech)\PhD\projects\thermal_modeling\fan-out\test_code_fowlp\test\test_2\FOWLP\testbench.m', 342)" style="font-weight:bold">testbench</a> (<a href="matlab: opentoline('C:\Users\Ankit Kaul\Dropbox (GaTech)\PhD\projects\thermal_modeling\fan-out\test_code_fowlp\test\test_2\FOWLP\testbench.m',342,0)">line 342</a>)
+report (chip, system);
+} 
+opentoline('C:\Program Files\MATLAB\R2018b\toolbox\shared\rptgen\+rptgen\+utils\FOPProxy.m',200,0)
+testbench
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+[Fatal Error] root.fo:1:2037: An invalid XML character (Unicode: 0x2) was found in the element content of the document.
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('rptgen.utils.FOPProxy/foToPDFImpl', 'C:\Program Files\MATLAB\R2018b\toolbox\shared\rptgen\+rptgen\+utils\FOPProxy.m', 200)" style="font-weight:bold">rptgen.utils.FOPProxy/foToPDFImpl</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2018b\toolbox\shared\rptgen\+rptgen\+utils\FOPProxy.m',200,0)">line 200</a>)
+Java exception occurred:
+javax.xml.transform.TransformerException: org.xml.sax.SAXParseException; systemId:
+file:/C:/Users/Ankit%20Kaul/Dropbox%20(GaTech)/PhD/projects/thermal_modeling/fan-out/test_code_fowlp/test/test_2/FOWLP/report_FO/root.fo;
+lineNumber: 1; columnNumber: 2037; An invalid XML character (Unicode: 0x2) was found in the element content of the
+document.
+	at com.icl.saxon.IdentityTransformer.transform(IdentityTransformer.java:61)
+Caused by: org.xml.sax.SAXParseException; systemId:
+file:/C:/Users/Ankit%20Kaul/Dropbox%20(GaTech)/PhD/projects/thermal_modeling/fan-out/test_code_fowlp/test/test_2/FOWLP/report_FO/root.fo;
+lineNumber: 1; columnNumber: 2037; An invalid XML character (Unicode: 0x2) was found in the element content of the
+document.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at com.icl.saxon.IdentityTransformer.transform(IdentityTransformer.java:59)
+---------
+org.xml.sax.SAXParseException; systemId:
+file:/C:/Users/Ankit%20Kaul/Dropbox%20(GaTech)/PhD/projects/thermal_modeling/fan-out/test_code_fowlp/test/test_2/FOWLP/report_FO/root.fo;
+lineNumber: 1; columnNumber: 2037; An invalid XML character (Unicode: 0x2) was found in the element content of the
+document.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at com.icl.saxon.IdentityTransformer.transform(IdentityTransformer.java:59)
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('rptgen.utils.FOPProxy.foToPDF', 'C:\Program Files\MATLAB\R2018b\toolbox\shared\rptgen\+rptgen\+utils\FOPProxy.m', 84)" style="font-weight:bold">rptgen.utils.FOPProxy.foToPDF</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2018b\toolbox\shared\rptgen\+rptgen\+utils\FOPProxy.m',84,0)">line 84</a>)
+            foToPDFImpl(h, foPath, pdfPath, locale, extraFonts, cleanupFonts);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('report', 'C:\Users\Ankit Kaul\Dropbox (GaTech)\PhD\projects\thermal_modeling\fan-out\test_code_fowlp\test\test_2\FOWLP\report.m', 20)" style="font-weight:bold">report</a> (<a href="matlab: opentoline('C:\Users\Ankit Kaul\Dropbox (GaTech)\PhD\projects\thermal_modeling\fan-out\test_code_fowlp\test\test_2\FOWLP\report.m',20,0)">line 20</a>)
+close(d)
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('testbench', 'C:\Users\Ankit Kaul\Dropbox (GaTech)\PhD\projects\thermal_modeling\fan-out\test_code_fowlp\test\test_2\FOWLP\testbench.m', 342)" style="font-weight:bold">testbench</a> (<a href="matlab: opentoline('C:\Users\Ankit Kaul\Dropbox (GaTech)\PhD\projects\thermal_modeling\fan-out\test_code_fowlp\test\test_2\FOWLP\testbench.m',342,0)">line 342</a>)
+report (chip, system);
+} 
+clc
+tabe = struct2table(chip)
+
+tabe =
+
+  2×13 <a href="matlab:helpPopup table" style="font-weight:bold">table</a>
+
+       <strong>layer</strong>        <strong>model</strong>    <strong>metal_portion</strong>    <strong>Xsize</strong>    <strong>Ysize</strong>        <strong>bump</strong>        <strong>power</strong>    <strong>p_metal</strong>    <strong>map</strong>       <strong>name</strong>       <strong>blk_num</strong>      <strong>xl</strong>        <strong>yb</strong>  
+    <strong>____________</strong>    <strong>_____</strong>    <strong>_____________</strong>    <strong>_____</strong>    <strong>_____</strong>    <strong>____________</strong>    <strong>_____</strong>    <strong>_______</strong>    <strong>___</strong>    <strong>__________</strong>    <strong>_______</strong>    <strong>_______</strong>    <strong>_____</strong>
+
+    [1x1 struct]      5          0.15         0.005    0.005    [1x1 struct]      2       0.05      []     'CHIP # 1'       0       0.01485    0.015
+    [1x1 struct]      5          0.15         0.005    0.005    [1x1 struct]      3       0.05      []     'CHIP # 2'       0       0.02015    0.015
+
+testbench
+if system_dependent('IsDebugMode')==1, dbstep in; end
+{Error: <a href="matlab: opentoline('C:\Users\Ankit Kaul\Dropbox (GaTech)\PhD\projects\thermal_modeling\fan-out\test_code_fowlp\test\test_2\FOWLP\report.m',20,30)">File: report.m Line: 20 Column: 30
+</a>Invalid expression. When calling a function or indexing a variable, use parentheses. Otherwise, check for mismatched
+delimiters.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('testbench', 'C:\Users\Ankit Kaul\Dropbox (GaTech)\PhD\projects\thermal_modeling\fan-out\test_code_fowlp\test\test_2\FOWLP\testbench.m', 342)" style="font-weight:bold">testbench</a> (<a href="matlab: opentoline('C:\Users\Ankit Kaul\Dropbox (GaTech)\PhD\projects\thermal_modeling\fan-out\test_code_fowlp\test\test_2\FOWLP\testbench.m',342,0)">line 342</a>)
+report (chip, system);
+} 
+opentoline('C:\Users\Ankit Kaul\Dropbox (GaTech)\PhD\projects\thermal_modeling\fan-out\test_code_fowlp\test\test_2\FOWLP\testbench.m',342,0)
+testbench
+if system_dependent('IsDebugMode')==1, dbcont; end
+{Error: <a href="matlab: opentoline('C:\Users\Ankit Kaul\Dropbox (GaTech)\PhD\projects\thermal_modeling\fan-out\test_code_fowlp\test\test_2\FOWLP\report.m',20,30)">File: report.m Line: 20 Column: 30
+</a>Invalid expression. When calling a function or indexing a variable, use parentheses. Otherwise, check for mismatched
+delimiters.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('testbench', 'C:\Users\Ankit Kaul\Dropbox (GaTech)\PhD\projects\thermal_modeling\fan-out\test_code_fowlp\test\test_2\FOWLP\testbench.m', 342)" style="font-weight:bold">testbench</a> (<a href="matlab: opentoline('C:\Users\Ankit Kaul\Dropbox (GaTech)\PhD\projects\thermal_modeling\fan-out\test_code_fowlp\test\test_2\FOWLP\testbench.m',342,0)">line 342</a>)
+report (chip, system);
+} 
+testbench
+if system_dependent('IsDebugMode')==1, dbcont; end
+{Error: <a href="matlab: opentoline('C:\Users\Ankit Kaul\Dropbox (GaTech)\PhD\projects\thermal_modeling\fan-out\test_code_fowlp\test\test_2\FOWLP\report.m',20,30)">File: report.m Line: 20 Column: 30
+</a>Invalid expression. When calling a function or indexing a variable, use parentheses. Otherwise, check for mismatched
+delimiters.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('testbench', 'C:\Users\Ankit Kaul\Dropbox (GaTech)\PhD\projects\thermal_modeling\fan-out\test_code_fowlp\test\test_2\FOWLP\testbench.m', 342)" style="font-weight:bold">testbench</a> (<a href="matlab: opentoline('C:\Users\Ankit Kaul\Dropbox (GaTech)\PhD\projects\thermal_modeling\fan-out\test_code_fowlp\test\test_2\FOWLP\testbench.m',342,0)">line 342</a>)
+ans = report (chip, system);
+} 
+testbench
+if system_dependent('IsDebugMode')==1, dbcont; end
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('report')" style="font-weight:bold">report</a>
+Too many output arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('testbench', 'C:\Users\Ankit Kaul\Dropbox (GaTech)\PhD\projects\thermal_modeling\fan-out\test_code_fowlp\test\test_2\FOWLP\testbench.m', 342)" style="font-weight:bold">testbench</a> (<a href="matlab: opentoline('C:\Users\Ankit Kaul\Dropbox (GaTech)\PhD\projects\thermal_modeling\fan-out\test_code_fowlp\test\test_2\FOWLP\testbench.m',342,0)">line 342</a>)
+ans = report (chip, system);
+} 
+testbench
+if system_dependent('IsDebugMode')==1, dbcont; end
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('mlreportgen.dom.Document/append')" style="font-weight:bold">mlreportgen.dom.Document/append</a>
+Cannot convert contents of array element (1, 7) to a document object.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('report', 'C:\Users\Ankit Kaul\Dropbox (GaTech)\PhD\projects\thermal_modeling\fan-out\test_code_fowlp\test\test_2\FOWLP\report.m', 20)" style="font-weight:bold">report</a> (<a href="matlab: opentoline('C:\Users\Ankit Kaul\Dropbox (GaTech)\PhD\projects\thermal_modeling\fan-out\test_code_fowlp\test\test_2\FOWLP\report.m',20,0)">line 20</a>)
+append (d, struct2table(chip));
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('testbench', 'C:\Users\Ankit Kaul\Dropbox (GaTech)\PhD\projects\thermal_modeling\fan-out\test_code_fowlp\test\test_2\FOWLP\testbench.m', 342)" style="font-weight:bold">testbench</a> (<a href="matlab: opentoline('C:\Users\Ankit Kaul\Dropbox (GaTech)\PhD\projects\thermal_modeling\fan-out\test_code_fowlp\test\test_2\FOWLP\testbench.m',342,0)">line 342</a>)
+report (chip, system);
+} 
+opentoline('C:\Users\Ankit Kaul\Dropbox (GaTech)\PhD\projects\thermal_modeling\fan-out\test_code_fowlp\test\test_2\FOWLP\report.m',20,0)
+testbench
+if system_dependent('IsDebugMode')==1, dbcont; end
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('writetable', 'C:\Program Files\MATLAB\R2018b\toolbox\matlab\iofun\writetable.m', 142)" style="font-weight:bold">writetable</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2018b\toolbox\matlab\iofun\writetable.m',142,0)">line 142</a>)
+Input must be a row vector of characters or string scalar.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('report', 'C:\Users\Ankit Kaul\Dropbox (GaTech)\PhD\projects\thermal_modeling\fan-out\test_code_fowlp\test\test_2\FOWLP\report.m', 22)" style="font-weight:bold">report</a> (<a href="matlab: opentoline('C:\Users\Ankit Kaul\Dropbox (GaTech)\PhD\projects\thermal_modeling\fan-out\test_code_fowlp\test\test_2\FOWLP\report.m',22,0)">line 22</a>)
+writetable(tab, d);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('testbench', 'C:\Users\Ankit Kaul\Dropbox (GaTech)\PhD\projects\thermal_modeling\fan-out\test_code_fowlp\test\test_2\FOWLP\testbench.m', 342)" style="font-weight:bold">testbench</a> (<a href="matlab: opentoline('C:\Users\Ankit Kaul\Dropbox (GaTech)\PhD\projects\thermal_modeling\fan-out\test_code_fowlp\test\test_2\FOWLP\testbench.m',342,0)">line 342</a>)
+report (chip, system);
+} 
+opentoline('C:\Program Files\MATLAB\R2018b\toolbox\matlab\iofun\writetable.m',142,0)
+testbench
+Building stack layers
+there are 9 physical layers
+there are 10 nodal layers to be solved
+
+meshing the stack
+The locations of the chip are fine 
+The locations between the chip and package are fine 
+The locations between the chip and heat spreader are fine 
+chip domain meshing done
+package domain meshing done
+heat spreader domain meshing done
+Elapsed time is 0.079523 seconds.
+meshing done
+
+Molding material filling 
+
+build Stiffness Matrix
+heat spreader top done: 0.425807
+other heat spreader layers done: 0.416109
+heat spreader bot done: 1.442066
+other chip layers done: 0.563870
+package bot done: 0.111009
+10 of 10 layers are analyzed
+Elapsed time is 2.968213 seconds.
+
+assign power map
+Elapsed time is 0.068189 seconds.
+total power: 5.000000
+finish assigning power map
+
+calculate temperature
+Elapsed time is 11.108900 seconds.
+calculatation done
+ 
+chip1 Max: 89.986184
+chip1 Min: 88.010768
+chip2 Max: 91.297609
+chip2 Min: 88.311043
+Active Layer #1 Max: 91.297609
+Active Layer #1 Min: 86.611295
+total power escaped from top surface: 1.305645
+Heat spreader Max: 88.699134
+Heat spreader Min: 86.868375
+chip1 Min ~ Max: 86.61 ~ 91.30
+chip2 Min ~ Max: 86.61 ~ 91.30
+total run time: 21.24 
+t= Table(magic(5))
+{Cannot find an exact (case-sensitive) match for 'Table'
+
+The closest match is: table in C:\Program Files\MATLAB\R2018b\toolbox\matlab\datatypes\@table\table.m
+} 
+t= table(magic(5))
+
+t =
+
+  5×1 <a href="matlab:helpPopup table" style="font-weight:bold">table</a>
+
+               <strong>Var1</strong>           
+    <strong>__________________________</strong>
+
+    17    24     1     8    15
+    23     5     7    14    16
+     4     6    13    20    22
+    10    12    19    21     3
+    11    18    25     2     9
+
+openExample('rptgen/CreateaTableExample')
+t= table()
+
+t =
+
+  0×0 empty <a href="matlab:helpPopup table" style="font-weight:bold">table</a>
+
+t=tab
+
+t =
+
+  2×13 <a href="matlab:helpPopup table" style="font-weight:bold">table</a>
+
+       <strong>layer</strong>        <strong>model</strong>    <strong>metal_portion</strong>    <strong>Xsize</strong>    <strong>Ysize</strong>        <strong>bump</strong>        <strong>power</strong>    <strong>p_metal</strong>    <strong>map</strong>       <strong>name</strong>       <strong>blk_num</strong>      <strong>xl</strong>        <strong>yb</strong>  
+    <strong>____________</strong>    <strong>_____</strong>    <strong>_____________</strong>    <strong>_____</strong>    <strong>_____</strong>    <strong>____________</strong>    <strong>_____</strong>    <strong>_______</strong>    <strong>___</strong>    <strong>__________</strong>    <strong>_______</strong>    <strong>_______</strong>    <strong>_____</strong>
+
+    [1x1 struct]      5          0.15         0.005    0.005    [1x1 struct]      2       0.05      []     'CHIP # 1'       0       0.01485    0.015
+    [1x1 struct]      5          0.15         0.005    0.005    [1x1 struct]      3       0.05      []     'CHIP # 2'       0       0.02015    0.015
+
+t=Table()
+{Cannot find an exact (case-sensitive) match for 'Table'
+
+The closest match is: table in C:\Program Files\MATLAB\R2018b\toolbox\matlab\datatypes\@table\table.m
+} 
+t=table()
+
+t =
+
+  0×0 empty <a href="matlab:helpPopup table" style="font-weight:bold">table</a>
+
+t = Table(magic(5));
+{Cannot find an exact (case-sensitive) match for 'Table'
+
+The closest match is: table in C:\Program Files\MATLAB\R2018b\toolbox\matlab\datatypes\@table\table.m
+} 
+t = table(magic(5));
+import mlreportgen.dom.*;
+t = Table(magic(5));
+import mlreportgen.dom.*;
+t = Table(tab);
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('mlreportgen.dom.Table')" style="font-weight:bold">mlreportgen.dom.Table</a>
+Cannot convert contents of array element (1, 7) to a document object.
+} 
+testbench
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('writetable', 'C:\Program Files\MATLAB\R2018b\toolbox\matlab\iofun\writetable.m', 142)" style="font-weight:bold">writetable</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2018b\toolbox\matlab\iofun\writetable.m',142,0)">line 142</a>)
+Invalid parameter name. Parameter name must be a nonempty string or character vector.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('testbench', 'C:\Users\Ankit Kaul\Dropbox (GaTech)\PhD\projects\thermal_modeling\fan-out\test_code_fowlp\test\test_2\FOWLP\testbench.m', 346)" style="font-weight:bold">testbench</a> (<a href="matlab: opentoline('C:\Users\Ankit Kaul\Dropbox (GaTech)\PhD\projects\thermal_modeling\fan-out\test_code_fowlp\test\test_2\FOWLP\testbench.m',346,0)">line 346</a>)
+writetable(tab_struct, '\n', tab_chip, 'report');
+} 

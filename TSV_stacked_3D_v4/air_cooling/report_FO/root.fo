@@ -1,0 +1,1 @@
+<fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:fox="http://xmlgraphics.apache.org/fop/extensions"  font-selection-strategy="character-by-character"></fo:layout-master-set></fo:root>

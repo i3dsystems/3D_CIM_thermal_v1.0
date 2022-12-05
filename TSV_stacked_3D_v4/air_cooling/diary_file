@@ -1,0 +1,395 @@
+Power: 0.4 W
+   1.0000e-06
+
+Emb. layer ILD: 0.0 W
+Building stack layers
+there are 14 physical layers
+there are 15 nodal layers to be solved
+
+meshing the stack
+The locations of the chip are fine 
+The locations between the chip and package are fine 
+The locations between the chip and heat spreader are fine 
+chip domain meshing done
+package domain meshing done
+heat spreader domain meshing done
+Elapsed time is 0.034769 seconds.
+meshing done
+
+Time domain meshing: takes 0.001 seconds
+
+Molding material filling 
+
+Vias insertion 
+layer 1 bump informtion: there are 2500 vias
+layer 2 bump informtion: there are 2500 vias
+layer 2 TSV informtion: there are 2500 vias
+layer 3 bump informtion: there are 1 vias
+there are 1 vias
+there are 1 vias
+there are 1 vias
+there are 1 vias
+there are 1 vias
+layer 3 TSV informtion: there are 1 vias
+there are 1 vias
+there are 1 vias
+there are 1 vias
+there are 1 vias
+there are 1 vias
+
+build Stiffness Matrix
+heat spreader top done: 0.219332
+other heat spreader layers done: 0.208381
+heat spreader bot done: 0.309222
+other chip layers done: 0.320865
+package bot done: 0.056952
+15 of 15 layers are analyzed
+Elapsed time is 1.116642 seconds.
+
+assign power map
+Elapsed time is 0.032603 seconds.
+total power: 118.625000
+finish assigning power map
+
+calculate temperature
+Elapsed time is 3.755686 seconds.
+calculatation done
+ 
+chip1 Min ~ Max: 85.22 ~ 110.65
+chip2 Min ~ Max: 85.66 ~ 112.43
+chip3 Min ~ Max: 85.69 ~ 113.64
+chip4 Min ~ Max: 85.69 ~ 113.64
+chip5 Min ~ Max: 85.69 ~ 113.64
+chip6 Min ~ Max: 85.69 ~ 113.64
+chip7 Min ~ Max: 85.69 ~ 113.64
+chip8 Min ~ Max: 85.69 ~ 113.64
+total run time: 7.69 
+Power: 0.4 W
+   1.0000e-05
+
+Emb. layer ILD: 0.0 W
+Building stack layers
+there are 14 physical layers
+there are 15 nodal layers to be solved
+
+meshing the stack
+The locations of the chip are fine 
+The locations between the chip and package are fine 
+The locations between the chip and heat spreader are fine 
+chip domain meshing done
+package domain meshing done
+heat spreader domain meshing done
+Elapsed time is 0.045594 seconds.
+meshing done
+
+Time domain meshing: takes 0.001 seconds
+
+Molding material filling 
+
+Vias insertion 
+layer 1 bump informtion: there are 2500 vias
+layer 2 bump informtion: there are 2500 vias
+layer 2 TSV informtion: there are 2500 vias
+layer 3 bump informtion: there are 1 vias
+there are 1 vias
+there are 1 vias
+there are 1 vias
+there are 1 vias
+there are 1 vias
+layer 3 TSV informtion: there are 1 vias
+there are 1 vias
+there are 1 vias
+there are 1 vias
+there are 1 vias
+there are 1 vias
+
+build Stiffness Matrix
+heat spreader top done: 0.086495
+other heat spreader layers done: 0.025130
+heat spreader bot done: 0.144845
+other chip layers done: 0.089426
+package bot done: 0.013576
+15 of 15 layers are analyzed
+Elapsed time is 0.361428 seconds.
+
+assign power map
+Elapsed time is 0.008926 seconds.
+total power: 118.625000
+finish assigning power map
+
+calculate temperature
+Elapsed time is 3.583675 seconds.
+calculatation done
+ 
+chip1 Min ~ Max: 85.34 ~ 110.48
+chip2 Min ~ Max: 85.86 ~ 112.22
+chip3 Min ~ Max: 85.98 ~ 113.40
+chip4 Min ~ Max: 85.98 ~ 113.40
+chip5 Min ~ Max: 85.98 ~ 113.40
+chip6 Min ~ Max: 85.98 ~ 113.40
+chip7 Min ~ Max: 85.98 ~ 113.40
+chip8 Min ~ Max: 85.98 ~ 113.40
+total run time: 6.46 
+Power: 0.8 W
+   1.0000e-06
+
+Emb. layer ILD: 0.0 W
+Building stack layers
+there are 14 physical layers
+there are 15 nodal layers to be solved
+
+meshing the stack
+The locations of the chip are fine 
+The locations between the chip and package are fine 
+The locations between the chip and heat spreader are fine 
+chip domain meshing done
+package domain meshing done
+heat spreader domain meshing done
+Elapsed time is 0.007970 seconds.
+meshing done
+
+Time domain meshing: takes 0.001 seconds
+
+Molding material filling 
+
+Vias insertion 
+layer 1 bump informtion: there are 2500 vias
+layer 2 bump informtion: there are 2500 vias
+layer 2 TSV informtion: there are 2500 vias
+layer 3 bump informtion: there are 1 vias
+there are 1 vias
+there are 1 vias
+there are 1 vias
+there are 1 vias
+there are 1 vias
+layer 3 TSV informtion: there are 1 vias
+there are 1 vias
+there are 1 vias
+there are 1 vias
+there are 1 vias
+there are 1 vias
+
+build Stiffness Matrix
+heat spreader top done: 0.071767
+other heat spreader layers done: 0.010526
+heat spreader bot done: 0.171699
+other chip layers done: 0.127545
+package bot done: 0.018714
+15 of 15 layers are analyzed
+Elapsed time is 0.402434 seconds.
+
+assign power map
+Elapsed time is 0.002008 seconds.
+total power: 119.000000
+finish assigning power map
+
+calculate temperature
+Elapsed time is 4.189068 seconds.
+calculatation done
+ 
+chip1 Min ~ Max: 85.36 ~ 110.84
+chip2 Min ~ Max: 85.81 ~ 112.62
+chip3 Min ~ Max: 85.84 ~ 113.83
+chip4 Min ~ Max: 85.84 ~ 113.83
+chip5 Min ~ Max: 85.84 ~ 113.83
+chip6 Min ~ Max: 85.84 ~ 113.83
+chip7 Min ~ Max: 85.84 ~ 113.83
+chip8 Min ~ Max: 85.84 ~ 113.83
+total run time: 7.40 
+Power: 0.8 W
+   1.0000e-05
+
+Emb. layer ILD: 0.0 W
+Building stack layers
+there are 14 physical layers
+there are 15 nodal layers to be solved
+
+meshing the stack
+The locations of the chip are fine 
+The locations between the chip and package are fine 
+The locations between the chip and heat spreader are fine 
+chip domain meshing done
+package domain meshing done
+heat spreader domain meshing done
+Elapsed time is 0.034044 seconds.
+meshing done
+
+Time domain meshing: takes 0.003 seconds
+
+Molding material filling 
+
+Vias insertion 
+layer 1 bump informtion: there are 2500 vias
+layer 2 bump informtion: there are 2500 vias
+layer 2 TSV informtion: there are 2500 vias
+layer 3 bump informtion: there are 1 vias
+there are 1 vias
+there are 1 vias
+there are 1 vias
+there are 1 vias
+there are 1 vias
+layer 3 TSV informtion: there are 1 vias
+there are 1 vias
+there are 1 vias
+there are 1 vias
+there are 1 vias
+there are 1 vias
+
+build Stiffness Matrix
+heat spreader top done: 0.080689
+other heat spreader layers done: 0.021179
+heat spreader bot done: 0.149168
+other chip layers done: 0.086733
+package bot done: 0.007252
+15 of 15 layers are analyzed
+Elapsed time is 0.353712 seconds.
+
+assign power map
+Elapsed time is 0.001663 seconds.
+total power: 119.000000
+finish assigning power map
+
+calculate temperature
+Elapsed time is 4.063719 seconds.
+calculatation done
+ 
+chip1 Min ~ Max: 85.48 ~ 110.67
+chip2 Min ~ Max: 86.00 ~ 112.41
+chip3 Min ~ Max: 86.13 ~ 113.60
+chip4 Min ~ Max: 86.13 ~ 113.60
+chip5 Min ~ Max: 86.13 ~ 113.60
+chip6 Min ~ Max: 86.13 ~ 113.60
+chip7 Min ~ Max: 86.13 ~ 113.60
+chip8 Min ~ Max: 86.13 ~ 113.60
+total run time: 7.33 
+Power: 1.1 W
+   1.0000e-06
+
+Emb. layer ILD: 0.0 W
+Building stack layers
+there are 14 physical layers
+there are 15 nodal layers to be solved
+
+meshing the stack
+The locations of the chip are fine 
+The locations between the chip and package are fine 
+The locations between the chip and heat spreader are fine 
+chip domain meshing done
+package domain meshing done
+heat spreader domain meshing done
+Elapsed time is 0.005206 seconds.
+meshing done
+
+Time domain meshing: takes 0.000 seconds
+
+Molding material filling 
+
+Vias insertion 
+layer 1 bump informtion: there are 2500 vias
+layer 2 bump informtion: there are 2500 vias
+layer 2 TSV informtion: there are 2500 vias
+layer 3 bump informtion: there are 1 vias
+there are 1 vias
+there are 1 vias
+there are 1 vias
+there are 1 vias
+there are 1 vias
+layer 3 TSV informtion: there are 1 vias
+there are 1 vias
+there are 1 vias
+there are 1 vias
+there are 1 vias
+there are 1 vias
+
+build Stiffness Matrix
+heat spreader top done: 0.075769
+other heat spreader layers done: 0.008850
+heat spreader bot done: 0.142498
+other chip layers done: 0.091646
+package bot done: 0.014062
+15 of 15 layers are analyzed
+Elapsed time is 0.334299 seconds.
+
+assign power map
+Elapsed time is 0.002944 seconds.
+total power: 119.375000
+finish assigning power map
+
+calculate temperature
+Elapsed time is 4.263510 seconds.
+calculatation done
+ 
+chip1 Min ~ Max: 85.50 ~ 111.04
+chip2 Min ~ Max: 85.95 ~ 112.81
+chip3 Min ~ Max: 85.98 ~ 114.02
+chip4 Min ~ Max: 85.98 ~ 114.02
+chip5 Min ~ Max: 85.98 ~ 114.02
+chip6 Min ~ Max: 85.98 ~ 114.02
+chip7 Min ~ Max: 85.98 ~ 114.02
+chip8 Min ~ Max: 85.98 ~ 114.02
+total run time: 7.35 
+Power: 1.1 W
+   1.0000e-05
+
+Emb. layer ILD: 0.0 W
+Building stack layers
+there are 14 physical layers
+there are 15 nodal layers to be solved
+
+meshing the stack
+The locations of the chip are fine 
+The locations between the chip and package are fine 
+The locations between the chip and heat spreader are fine 
+chip domain meshing done
+package domain meshing done
+heat spreader domain meshing done
+Elapsed time is 0.002511 seconds.
+meshing done
+
+Time domain meshing: takes 0.000 seconds
+
+Molding material filling 
+
+Vias insertion 
+layer 1 bump informtion: there are 2500 vias
+layer 2 bump informtion: there are 2500 vias
+layer 2 TSV informtion: there are 2500 vias
+layer 3 bump informtion: there are 1 vias
+there are 1 vias
+there are 1 vias
+there are 1 vias
+there are 1 vias
+there are 1 vias
+layer 3 TSV informtion: there are 1 vias
+there are 1 vias
+there are 1 vias
+there are 1 vias
+there are 1 vias
+there are 1 vias
+
+build Stiffness Matrix
+heat spreader top done: 0.079772
+other heat spreader layers done: 0.012567
+heat spreader bot done: 0.230191
+other chip layers done: 0.136511
+package bot done: 0.005446
+15 of 15 layers are analyzed
+Elapsed time is 0.466204 seconds.
+
+assign power map
+Elapsed time is 0.001967 seconds.
+total power: 119.375000
+finish assigning power map
+
+calculate temperature
+{Operation terminated by user during <a href="matlab:matlab.internal.language.introspective.errorDocCallback('thermal_solve_ss', 'C:\Users\asuca\Dropbox (GaTech)\PhD\projects\thermal_modeling\soc+\working_folder\code\transient\soc+\config1_air_cooled\SoC+\util\math\thermal_solve_ss.m', 11)" style="font-weight:bold">thermal_solve_ss</a> (<a href="matlab: opentoline('C:\Users\asuca\Dropbox (GaTech)\PhD\projects\thermal_modeling\soc+\working_folder\code\transient\soc+\config1_air_cooled\SoC+\util\math\thermal_solve_ss.m',11,0)">line 11</a>)
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ThermSim', 'C:\Users\asuca\Dropbox (GaTech)\PhD\projects\thermal_modeling\soc+\working_folder\code\transient\soc+\config1_air_cooled\SoC+\ThermSim.m', 33)" style="font-weight:bold">ThermSim</a> (<a href="matlab: opentoline('C:\Users\asuca\Dropbox (GaTech)\PhD\projects\thermal_modeling\soc+\working_folder\code\transient\soc+\config1_air_cooled\SoC+\ThermSim.m',33,0)">line 33</a>)
+        x = thermal_solve_ss(Y, H, heat, h.Ta, var);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('testbench_one_embedded_tier', 'C:\Users\asuca\Dropbox (GaTech)\PhD\projects\thermal_modeling\soc+\working_folder\code\transient\soc+\config1_air_cooled\SoC+\testbench_one_embedded_tier.m', 818)" style="font-weight:bold">testbench_one_embedded_tier</a> (<a href="matlab: opentoline('C:\Users\asuca\Dropbox (GaTech)\PhD\projects\thermal_modeling\soc+\working_folder\code\transient\soc+\config1_air_cooled\SoC+\testbench_one_embedded_tier.m',818,0)">line 818</a>)
+        T = ThermSim(system, chip, Material, draw, h);
+} 
+clc
+testbench_one_embedded_tier
