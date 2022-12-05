@@ -33,6 +33,6 @@ For usage, please refer to the manual.
 
 [3] P.-Y. Chen and S. Yu, “Compact modeling of rram devices and its applications in 1t1r and 1s1r array design,” IEEE Trans. Electron Devices, vol. 62, no. 12, pp. 4022–4028, 2015. [Online]. Available: 10.1109/TED.2015.2492421
 
-[4] Y.-H. Chen, J. Emer, and V. Sze, “Eyeriss: A spatial architecture for energy-efficient dataflow for convolutional neural networks,” in Proceedings of the 43rd International Symposium on Computer Architecture, ser. ISCA ’16. IEEE Press, 2016, p. 367–379. [Online]. Available: https://doi.org/ 10.1109/ISCA.2016.40
+[4] Y.-H. Chen, J. Emer, and V. Sze, “Eyeriss: A spatial architecture for energy-efficient dataflow for convolutional neural networks,” in Proceedings of the 43rd International Symposium on Computer Architecture, ser. ISCA ’16. IEEE Press, 2016, p. 367–379. [Online]. Available: https://doi.org/10.1109/ISCA.2016.40
 
 [5] X. Peng, S. Huang, Y. Luo, X. Sun, and S. Yu, “Dnn+neurosim: An end-to-end benchmarking framework for compute-in-memory accelerators with versatile device technologies,” in Proc. IEEE Int. Elec. Devices Meeting, 2019, pp. 32.5.1–32.5.4. [Online]. Available: 10.1109/IEDM19573.2019.8993491
