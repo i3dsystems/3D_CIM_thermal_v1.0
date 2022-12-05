@@ -14,7 +14,7 @@ If you have any questions or comments on the framework, please contact  :man: [D
 ## Installation steps (Linux)
 1. Get tool from GitHub
 ```
-git clone https://github.com/neurosim/DNN_NeuroSim_V1.3.git
+git clone https://github.com/i3dsystems/3D_CIM_thermal_v1.0.git
 ```
 
 2. Get DNN+NeuroSim tool from GitHub
