@@ -12,7 +12,7 @@ If you have any questions or comments on the framework, please contact  :man: [D
 3. NeuroSim python wrapper: 'get_inference.py'
 
 ## Installation steps (Linux)
-1. Get tool from GitHub
+1. Get 3D_CIM_thermal from GitHub
 ```
 git clone https://github.com/i3dsystems/3D_CIM_thermal_v1.0.git
 ```
