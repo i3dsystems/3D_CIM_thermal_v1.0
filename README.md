@@ -24,7 +24,7 @@ git clone https://github.com/neurosim/DNN_NeuroSim_V1.3.git
 
 3. Download MATLAB engine library
 
-For usage, please refer to the manual.
+For usage, please refer to the manual at /Documents/3D_CIM_thermal_v1.0 Manual.pdf.
 
 ## References
 [1] A. Kaul, Y. Luo, X. Peng, S. Yu, and M. S. Bakir, “Thermal reliability considerations of resistive synaptic devices for 3d cim system performance,” in 2021 IEEE International 3D Systems Integration Conference (3DIC), 2021, pp. 1–5. [Online]. Available: 10.1109/3DIC52383.2021.9687612
