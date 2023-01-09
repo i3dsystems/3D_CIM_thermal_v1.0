@@ -5,7 +5,8 @@ The 3D CIM thermal framework was developed by [Dr. Muhannad Bakir's group](https
 This research is supported by ASCENT, one of the SRC/DARPA JUMP centers.
 
 If you use the tool or adapt the tool in your work or publication, you are required to cite the following reference: 
-A. Kaul; Y. Luo; X. Peng; M. Manley; Y.-C. Luo; S. Yu; M. S. Bakir, "3-D Heterogeneous Integration of RRAM-Based Compute-In-Memory: Impact of Integration Parameters on Inference Accuracy," in IEEE Transactions on Electron Devices (TED), 2022, doi: 10.1109/TED.2022.3231570.
+
+**A. Kaul; Y. Luo; X. Peng; M. Manley; Y.-C. Luo; S. Yu; M. S. Bakir, "3-D Heterogeneous Integration of RRAM-Based Compute-In-Memory: Impact of Integration Parameters on Inference Accuracy," in _IEEE Transactions on Electron Devices (TED)_, 2022, doi: [10.1109/TED.2022.3231570]([url](https://ieeexplore.ieee.org/abstract/document/10003124)).**
 
 If you have any questions or comments on the framework, please contact  :man: [Dr. Muhannad Bakir](mailto:mbakir@ece.gatech.edu), and if you have technical questions or comments, please contact :man: [Ankit Kaul](mailto:ankit.kaul@gatech.edu) or :woman: [Madison Manley](mailto:madison.manley@gatech.edu).
 
