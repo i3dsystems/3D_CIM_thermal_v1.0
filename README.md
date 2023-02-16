@@ -31,7 +31,7 @@ git clone https://github.com/neurosim/DNN_NeuroSim_V1.3.git
 For usage, please refer to the manual at /Documents/3D_CIM_thermal_v1.0 Manual.pdf.
 
 ## References
-[1] A. Kaul, Y. Luo, X. Peng, S. Yu, and M. S. Bakir, “Thermal reliability considerations of resistive synaptic devices for 3d cim system performance,” in 2021 IEEE International 3D Systems Integration Conference (3DIC), 2021, pp. 1–5. [Online]. Available: 10.1109/3DIC52383.2021.9687612
+[1] A. Kaul; Y. Luo; X. Peng; M. Manley; Y.-C. Luo; S. Yu; M. S. Bakir, "3-D Heterogeneous Integration of RRAM-Based Compute-In-Memory: Impact of Integration Parameters on Inference Accuracy," in _IEEE Transactions on Electron Devices (TED)_, 2022, doi: [10.1109/TED.2022.3231570](https://ieeexplore.ieee.org/abstract/document/10003124).
 
 [2] Y. Zhang, Y. Zhang, and M. S. Bakir, “Thermal design and constraints for heterogeneous integrated chip stacks and isolation technology using air gap and thermal bridge,” IEEE Transactions on Components, Packaging and Manufacturing Technology, vol. 4, no. 12, pp. 1914–1924, 2014. [Online]. Available: 10.1109/TCPMT.2014.2364742
 
